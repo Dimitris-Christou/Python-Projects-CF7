@@ -1,0 +1,10 @@
+2025-07-07 19:04:10,462:ERROR:search-app:Error occured: '20' is not in list
+Traceback (most recent call last):
+  File "C:\Users\Dimit\Desktop\CODING FACTORY\Python-Projects-CF7\chapter05\19_logging\19_logging_app.py", line 26, in main
+    index = my_nums.index(num_to_find)
+ValueError: '20' is not in list
+2025-07-07 19:05:10,095:ERROR:search-app:Error occured: 200 is not in list
+Traceback (most recent call last):
+  File "C:\Users\Dimit\Desktop\CODING FACTORY\Python-Projects-CF7\chapter05\19_logging\19_logging_app.py", line 26, in main
+    index = my_nums.index(num_to_find)
+ValueError: 200 is not in list

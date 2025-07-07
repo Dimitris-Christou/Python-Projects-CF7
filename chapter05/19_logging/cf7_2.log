@@ -1,0 +1,11 @@
+2025-07-07 19:42:08,350:ERROR:search-app2:Item Chris not found in the list. Error: 'Chris' is not in list
+Traceback (most recent call last):
+  File "C:\Users\Dimit\Desktop\CODING FACTORY\Python-Projects-CF7\chapter05\19_logging\19_logging_extra.py", line 82, in search_item
+    index = items.index(item_to_find)
+ValueError: 'Chris' is not in list
+2025-07-07 19:42:46,134:ERROR:search-app2:Item alice not found in the list. Error: 'alice' is not in list
+Traceback (most recent call last):
+  File "C:\Users\Dimit\Desktop\CODING FACTORY\Python-Projects-CF7\chapter05\19_logging\19_logging_extra.py", line 82, in search_item
+    index = items.index(item_to_find)
+ValueError: 'alice' is not in list
+2025-07-07 19:43:06,902:INFO:search-app2:Item Alice found at index 0
