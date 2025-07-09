@@ -26,6 +26,17 @@ def main():
     p.name = "Jhon"
     print(p.name)
 
+    del p.name
+    print(p.name)
+
+    p.friends = []
+    p.friends.append("Chris")
+    p.friends.append("Ioannis")
+
+    print("Friend List")
+    for friend in p.friends:
+        print(f" - {friend}")
+
 
 if __name__ == "__main__":
     main()
