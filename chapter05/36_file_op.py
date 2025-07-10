@@ -19,7 +19,7 @@ def read_file(file_path):
     except IOError as e:
         print(f"Error reading file {file_path}: {e}")
     
-    print(f"File closed after with-block: {f.close}")
+    print(f"File closed after with-block: {f.closed}")
 
 def read_file_contents(file_path):
     if not os.path.isfile(file_path):
@@ -72,7 +72,13 @@ def main():
     print()
 
     print("Reading my file")
-    read_file
+    read_file("example.txt")
+
+    print("Updating file")
+    update_file("example.txt", "This is the appended content\n")
+    
+    print("Delete file")
+    delete_file("example.txt")
 
 if __name__ == "__main__":
     main()
